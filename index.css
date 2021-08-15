@@ -139,6 +139,20 @@ font-family: 'WindSong', cursive; */
     height: 100%;
     width: 100%;
  }
+ .second {
+     height: 200px;
+     background: white;
+ }
+ .midbox {
+     opacity: 80%;
+     background-color: red;
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%, 0);
+     height: 160px;
+     width: 550px;
+     top: 1060px;
+ }
  .content {
     height: 500px;
     width: 100%;
@@ -149,13 +163,13 @@ font-family: 'WindSong', cursive; */
      margin-bottom: 100px;
      width: 100vw;
  }
- .second {
+ .third {
      height: 400px;
      overflow: hidden;
-     background: #3e0044;
+     background: #fdedff;
  }
  .footer {
     height: 100px;
     width: 100%;
-    background-color: #505F4A;
+    background-color: #ebffe3;
  }
