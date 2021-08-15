@@ -16,7 +16,7 @@ font-family: 'WindSong', cursive; */
      pointer-events: none;
     }
     #LargeCursor {
-    z-index: 4;
+    z-index: 5;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ font-family: 'WindSong', cursive; */
     transition: all .4s cubic-bezier(.23,1,.32,1);
 }
 #Dot {
-    z-index: 4;
+    z-index: 5;
     position: fixed;
     top: 1px;
     left: 1px;
@@ -62,7 +62,7 @@ font-family: 'WindSong', cursive; */
     transform: rotate(135deg);
 }
 .line2 {
-    left: 1404px;
+    right: -39px;
     top: 7px;
     position: absolute;
     border-left: 2px solid rgb(255, 255, 255);
@@ -140,9 +140,19 @@ font-family: 'WindSong', cursive; */
     width: 100%;
  }
  .content {
-    height: 300px;
+    height: 500px;
     width: 100%;
+    overflow: hidden;
     background-color: #EDEDED;
+ }
+ .contentimage1 {
+     margin-bottom: 100px;
+     width: 100vw;
+ }
+ .second {
+     height: 400px;
+     overflow: hidden;
+     background: #3e0044;
  }
  .footer {
     height: 100px;
